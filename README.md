@@ -3,7 +3,8 @@
 <!--toc:start-->
 - [Nix Flake Templates](#nix-flake-templates)
   - [`trivial` &mdash; A Basic Nix Flake Template](#trivial-mdash-a-basic-nix-flake-template)
-  <!--toc:end-->
+  - [`python-script` &mdash; A Python Program Script Template](#python-script-mdash-a-python-program-script-template)
+<!--toc:end-->
 
 ## `trivial` &mdash; A Basic Nix Flake Template
 
@@ -27,6 +28,30 @@ If you have checked out this repository, then:
 
 ```sh
 nix run ./templates/trivial
+```
+
+## `python-script` &mdash; A Python Program Script Template
+
+This template turns a Python script into an executable program as Nix Flake
+output.
+
+Use the template:
+
+```sh
+nix flake init --template github:vst/nix-flake-templates#python-script
+```
+
+You can run the default package defined in the Nix Flake without checking out
+the repository:
+
+```sh
+nix run "github:vst/nix-flake-templates?dir=templates/python-script" --no-write-lock-file
+```
+
+If you have checked out this repository, then:
+
+```sh
+nix run ./templates/python-script
 ```
 
 <!-- REFERENCE -->
