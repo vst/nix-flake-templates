@@ -13,6 +13,11 @@
         description = "A simple Python program script.";
       };
 
+      python-package = {
+        path = ./templates/python-package;
+        description = "A Python package with CLI functionality.";
+      };
+
       defaultTemplate = self.templates.trivial;
     };
   };
