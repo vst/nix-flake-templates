@@ -5,6 +5,7 @@
   - [`trivial` &mdash; A Basic Nix Flake Template](#trivial-mdash-a-basic-nix-flake-template)
   - [`python-script` &mdash; A Python Program Script Template](#python-script-mdash-a-python-program-script-template)
   - [`python-package` &mdash; A Python Package Template](#python-package-mdash-a-python-package-template)
+  - [`haskell-simple-app` &mdash; A Simple Haskell Application](#haskell-simple-app-mdash-a-simple-haskell-application)
 <!--toc:end-->
 
 ## `trivial` &mdash; A Basic Nix Flake Template
@@ -108,6 +109,18 @@ nix run ./templates/python-package
 > $ nox
 > $ zamazingo --name=there --count=3
 > ```
+
+## `haskell-simple-app` &mdash; A Simple Haskell Application
+
+This template provides a very simple Haskell application setup with a single
+Haskell file, Main.hs and a `.cabal` file. The development environment will
+include all the dependencies needed to comfortably work on the application.
+
+Use the template:
+
+```sh
+nix flake init --template github:vst/nix-flake-templates#haskell-simple-app
+```
 
 <!-- REFERENCE -->
 

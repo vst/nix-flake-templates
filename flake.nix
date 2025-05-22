@@ -18,6 +18,11 @@
         description = "A Python package with CLI functionality.";
       };
 
+      haskell-simple-app = {
+        path = ./templates/haskell-simple-app;
+        description = "A simple Haskell application template.";
+      };
+
       defaultTemplate = self.templates.trivial;
     };
   };
