@@ -2,11 +2,18 @@
 
 <!--toc:start-->
 - [Nix Flake Templates](#nix-flake-templates)
+  - [List of Templates](#list-of-templates)
   - [`trivial` &mdash; A Basic Nix Flake Template](#trivial-mdash-a-basic-nix-flake-template)
   - [`python-script` &mdash; A Python Program Script Template](#python-script-mdash-a-python-program-script-template)
   - [`python-package` &mdash; A Python Package Template](#python-package-mdash-a-python-package-template)
   - [`haskell-simple-app` &mdash; A Simple Haskell Application](#haskell-simple-app-mdash-a-simple-haskell-application)
 <!--toc:end-->
+
+## List of Templates
+
+```sh
+nix flake show github:vst/nix-flake-templates
+```
 
 ## `trivial` &mdash; A Basic Nix Flake Template
 
