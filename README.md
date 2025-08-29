@@ -7,6 +7,7 @@
   - [`python-script` &mdash; A Python Program Script Template](#python-script-mdash-a-python-program-script-template)
   - [`python-package` &mdash; A Python Package Template](#python-package-mdash-a-python-package-template)
   - [`haskell-simple-app` &mdash; A Simple Haskell Application](#haskell-simple-app-mdash-a-simple-haskell-application)
+  - [`haskell-tinker-shell` &mdash; A Haskell Tinker Shell Template](#haskell-tinker-shell-mdash-a-haskell-tinker-shell-template)
 <!--toc:end-->
 
 ## List of Templates
@@ -127,6 +128,17 @@ Use the template:
 
 ```sh
 nix flake init --template github:vst/nix-flake-templates#haskell-simple-app
+```
+
+## `haskell-tinker-shell` &mdash; A Haskell Tinker Shell Template
+
+A minimal [Nix Flake](https://nixos.wiki/wiki/Flakes) that gives a ready-to-use
+Haskell environment for quick experiments.
+
+Use the template:
+
+```sh
+nix flake init --template github:vst/nix-flake-templates#haskell-tinker-shell
 ```
 
 <!-- REFERENCE -->

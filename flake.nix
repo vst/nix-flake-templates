@@ -23,6 +23,11 @@
         description = "A simple Haskell application template.";
       };
 
+      haskell-tinker-shell = {
+        path = ./templates/haskell-tinker-shell;
+        description = "A development shell for tinkering with Haskell.";
+      };
+
       defaultTemplate = self.templates.trivial;
     };
   };
